@@ -1,0 +1,88 @@
+/* cell type */
+/* celltype == 0 --> Endo */
+/* celltype == 1 --> Mid */
+/* celltype == 2 --> Epi */
+1
+
+/* Base cycel length */
+//1000
+2000
+//4000
+
+/* ndis */
+//0.002           // for 1ms pulse width with BCL500
+//0.001         // for 1ms pulse width with BCL1000
+0.0005        // for 1ms pulse width with BCL2000
+
+/* Ikr block rate (for IKr) */
+0.0
+
+/* Iks block rate (for IKs) */
+1.0
+
+/* ICaL block rate (for ICaL) */
+1.0
+
+/* ICaL f-gate kinetics modification rate (for tau_f, tau_f2)*/
+1.0
+
+/* Ca uptake block rate (for Iup) */
+1.0
+
+/* Istim */
+-60.0
+
+/* number of data */
+1
+
+/* line width */
+2
+
+/* x1, y1 */
+-86.596524       // Vm            = x[0]
+0.00128231       // m             = x[1]
+0.78040927     	 // h             = x[2]
+0.78040927     	 // j             = x[3]
+1.92435E-8       // r             = x[4]
+0.99999836       // s             = x[5]
+0.000173937      // xr1           = x[6]
+0.48538462       // xr2           = x[7]
+0.00293437       // xs            = x[8]
+0.0000281050     // d             = x[9]
+0.99992618       // f             = x[10]
+0.99957865       // f2            = x[11]
+0.99999826       // fcass         = x[12]
+0.998160785      // R'            = x[13]
+3.85019E-5       // Ca_i          = x[14]
+0.385019         // Ca_sr         = x[15]
+8.50477E-5       // Ca_ss         = x[16]
+10.3550          // Na_i          = x[17]
+140.0            // K_i           = x[18]
+
+/* direction of time */
+1
+/* end time. 0.0 = nolimit of integration */ 
+0
+
+/* dIstim */
+0.1
+
+1		/* number of period */
+700	    /* strip for integral */
+0		/* poincare flag 0 --- poincare/1 --- orbit */
+0		/* write file 0 --- not write/1 --- write */
+0		/* write flag 0 --- poincare/1 --- orbit */
+0		/* if 1 then period is PI*/
+0		/* data output swithc; if 1 then data out*/
+1		/* screen output swithc; if 1 then data out*/
+0		/* current data output; if 1 then data out*/
+0		/* if 1 then debug */
+
+100 600 100 600     /* graph location */
+-100 60 -50 400	/* scaling */
+30 50 1 1     /* label strip & interval */
+1 1                 /* floating point */
+1                   /* axis/grid */
+-sony-fixed-medium-r-normal--24-170-100-100-c-120-iso8859-1 /* font */
+-212 -460 -40 -288      /* arrow */
+1                   /* command */
