@@ -1,0 +1,45 @@
+#!/bin/sh
+# PL-gnu.sh
+
+cat data.out | awk '{print $1,$2}' > x00.dat
+cat data.out | awk '{print $1,$3}' > x01.dat
+cat data.out | awk '{print $1,$4}' > x02.dat
+cat data.out | awk '{print $1,$5}' > x03.dat
+cat data.out | awk '{print $1,$6}' > x04.dat
+cat data.out | awk '{print $1,$7}' > x05.dat
+cat data.out | awk '{print $1,$8}' > x06.dat
+cat data.out | awk '{print $1,$9}' > x07.dat
+cat data.out | awk '{print $1,$10}' > x08.dat
+cat data.out | awk '{print $1,$11}' > x09.dat
+cat data.out | awk '{print $1,$12}' > x010.dat
+cat data.out | awk '{print $1,$13}' > x011.dat
+cat data.out | awk '{print $1,$14}' > x012.dat
+cat data.out | awk '{print $1,$15}' > x013.dat
+cat data.out | awk '{print $1,$16}' > x014.dat
+cat data.out | awk '{print $1,$17}' > x015.dat
+cat data.out | awk '{print $1,$18}' > x016.dat
+cat data.out | awk '{print $1,$19}' > x017.dat
+cat data.out | awk '{print $1,$20}' > x018.dat
+cat data.out | awk '{print $1,$21}' > x019.dat
+cat data.out | awk '{print $1,$22}' > x020.dat
+cat data.out | awk '{print $1,$23}' > x021.dat
+cat data.out | awk '{print $1,$24}' > x022.dat
+cat data.out | awk '{print $1,$25}' > x023.dat
+cat data.out | awk '{print $1,$26}' > x024.dat
+cat data.out | awk '{print $1,$27}' > x025.dat
+cat data.out | awk '{print $1,$28}' > x026.dat
+cat data.out | awk '{print $1,$29}' > x027.dat
+cat data.out | awk '{print $1,$30}' > x028.dat
+cat data.out | awk '{print $1,$31}' > x029.dat
+cat data.out | awk '{print $1,$32}' > x030.dat
+cat data.out | awk '{print $1,$33}' > x031.dat
+cat data.out | awk '{print $1,$34}' > x032.dat
+cat data.out | awk '{print $1,$35}' > x033.dat
+cat data.out | awk '{print $1,$36}' > x034.dat
+cat data.out | awk '{print $1,$37}' > x035.dat
+cat data.out | awk '{print $1,$38}' > x036.dat
+cat data.out | awk '{print $1,$39}' > x037.dat
+cat data.out | awk '{print $1,$40}' > x038.dat
+cat data.out | awk '{print $1,$41}' > x039.dat
+cat data.out | awk '{print $1,$42}' > x040.dat
+cat data.out | awk '{print $1,$43}' > x041.dat
